@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      input, table, button {
+        box-sizing: border-box;
+        width: 100%;
+      }
+    </style>
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <table>
+      <tr>
+        <td>
+          <input type="text" id="cdn" placeholder="Enter your own CDN"/>
+        </td>
+        <td>
+          <button onclick="add(cdn.value)">Add!</button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="text" placeholder="Search for a CDN" onchange="search(this.value)" />
+        </td>
+        <td>
+          <button>Search</button>
+        </td>
+      </tr>
+    </table>
+    <table id="searchResults">
+    </table>
+  </body>
+</html>
