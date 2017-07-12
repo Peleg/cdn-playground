@@ -5,3 +5,5 @@ Cmd + Opt + J > JSFiddle
 2. inject whatever script you'd like,
 3. open the console,
 4. and have fun!
+
+![](https://raw.githubusercontent.com/Peleg/cdn-playground/gh-pages/screen-shot.png)
